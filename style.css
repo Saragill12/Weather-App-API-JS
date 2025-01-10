@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.body{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rebeccapurple;
+}
+.container{
+  width: 1300px;
+  height:545px;
+  border-radius: 12px;
+  padding: 28px;
+  background-image: linear-gradient(to top, rgb(123, 253, 123) , rgb(99, 99, 252),rgb(255, 212, 133));
+}
+
+.search{
+  width: 30%;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.input{
+  width: 84%;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #000;
+  background-color: #e6f5fb;
+  padding: 12px 16px;
+  border-radius: 14px;
+}
+.search input::placeholder{
+  color: #000;
+}
+.search button{
+  width: 46px;
+  height: 46px;
+  background-color: #e6f5fb;
+border-radius: 50%;
+font-size: 20px;
+cursor: pointer;
+}
+.weather-body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-block:20px;
+
+}
+.search button:hover{
+  color: #fff;
+  background-color: #ababab;
+}
+.card{
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  border: 2px solid white;
+  left: 200px;
+  top: 70px;
+  display: inline-block;
+justify-content: space-evenly;
+}
+.card1{
+  margin-left: 15px;
+}
+.card2{
+margin-left: 15px;
+}
+.card3{
+margin-left: 15px;
+}
+.simple{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 42px;
+  position: absolute;
+  left: 230px;
+  top: 50px;
+}
+.tem{
+  font-size: 40px;
+  color: #000;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.cloud{
+  color: black;
+  font-size: 70px;
+  margin-left: 30px;
+  position: absolute;
+  top: 170px;
+}
+.rain{
+  color:gray;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 200px;
+}
+.cloud1{
+  margin-left: 40px;
+}
+.cloud2{
+  margin-left: 40px;
+}
+.uk{
+  color:gray;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 10px;
+}
+.ter{
+background-image: linear-gradient(white,rgb(233, 104, 104));
+font-size: 30px;
+position: absolute;
+left: 180px;
+top: 20px;
+}
+.city{
+  background-image: linear-gradient(rgb(134, 134, 250),rgb(236, 182, 182),rgb(245, 245, 130));
+  font-size: 30px;
+  position: absolute;
+  left: 180px;
+  top: 70px;
+  }
+  .winds{
+    color:rgb(92, 92, 235);
+    font-size: 30px;
+    position: absolute;
+    left: 180px;
+    top: 140px;
+    }
+.droplet{
+  background-image: linear-gradient(white,rgb(134, 134, 238));
+  font-size: 30px;
+  position: absolute;
+  left: 180px;
+  top: 200px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+ 
+  .container{
+    width:100%;
+    top: 0px;
+    height: 300px;
+    background-size: cover;
+  }
+  .simple{
+      font-size: 20px;
+      margin-left:-210px;
+      margin-top: -50px;
+
+     }
+     .input{
+      font-size: 10px;
+      margin-left: -210px;
+      margin-top: -200px;
+     }
+
+     .card{
+      display: flex;
+      margin-left: -220px;
+      margin-top: -140px;
+      width: 50%;
+     }
+     
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
